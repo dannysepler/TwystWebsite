@@ -1,0 +1,63 @@
+/* Quotes / Testimonials */
+
+.quote-section .review {
+	height: 90%;
+	margin-top: 5%;
+}
+.quote-section cite {
+	background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    display: block;
+    height: 30px;
+    border-radius: 15px;
+    line-height: 30px;
+    padding: 0 0 0 42px;
+    margin-bottom: 10px
+}
+.quote-section cite.theloop {
+	background: url("../images/press/the_loop.png") no-repeat left center;
+	background-size: 30px 30px;
+}
+.quote-section blockquote.theloop {
+	border-left: 5px solid #fa80a7;
+}
+.quote-section cite.pcentdesign {
+	background: url("../images/press/100design.png") no-repeat left center;
+	background-size: 30px 30px;
+}
+.quote-section blockquote.pcentdesign {
+	border-left: 5px solid #fa80a7;
+}
+.quote-section cite.macdigger {
+	background: url("../images/press/macdigger.png") no-repeat left center;
+	background-size: 30px 30px;
+}
+.quote-section blockquote.macdigger {
+	border-left: 5px solid #fa80a7;
+}
+
+.quote-section blockquote.theloop {
+	border-left: 5px solid #fa80a7;
+}
+
+.quote-section blockquote p {
+	padding: 0 0 0 42px;
+}
+
+.quote-section .review {
+	display: inline;
+	height: 30%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.quote-section .container .row {
+	padding: 20px 0px 20px 0px;
+}
+
+@media (min-width: 750px) {
+	blockquote {
+		font-size: 26px;
+	}
+}

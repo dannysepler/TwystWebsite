@@ -53,3 +53,24 @@
 /* *********************
 	SMALL QUOTE SECTION
    ********************* */
+
+.quote-section {
+	background-color: #f1c40f;
+}
+
+/* *********************
+	BIG PIC SECTION
+   ********************* */
+
+.featuredon-section {
+	padding: 90px 0px 90px 0px;
+}
+
+.featuredon-image {
+	margin: 0 auto;
+	height: 249px;
+    width: 520px;
+    bottom: 0;
+	background: url("../images/TwystScreenshot.jpg") no-repeat left center;
+	background-size: 520px 249px;
+	}
