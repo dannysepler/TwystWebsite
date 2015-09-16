@@ -23,7 +23,13 @@
     bottom: 0;
 	background: url("../images/vinyl_icon.png") no-repeat center bottom;
 	background-size: 320px 286px;
+}
 
+#download-link {
+	padding-top:20px;
+}
+
+#download-link a {
 }
 
 @media (min-width: 550px) {
