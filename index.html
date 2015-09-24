@@ -1,7 +1,10 @@
 <html>
 	<head>
+
+
 		<title>Twyst Website</title>
 
+		<link rel="stylesheet" href="styles/bootstrap.css">
 		<link rel="stylesheet" href="styles/normalize.css">
 		<link rel="stylesheet" href="styles/skeleton.css">
 		<link rel="stylesheet" href="styles/colordrop.css">
@@ -14,16 +17,16 @@
 		<section id="hero-section">
 			<div class="container" id="hero-header">
 				<div class="row">
-					<div class="left six columns">
-		  				<h1 class="title">Twyst</h1>
-		  				<h4 class="hero-text">A professional iOS instrument - more powerful, yet simpler and less expensive than physical instruments.</h4>
+					<div class="left col-md-6">
+		  				<h1 class="title top-section-words">Twyst</h1>
+		  				<h4 class="hero-text top-section-words">A professional iOS musical instrument - more powerful, yet simpler and less expensive than physical instruments.</h4>
 						
 						<div id="download-link">
-							<a class="separated ac-lightbox centered" href="https://itunes.apple.com/us/genre/ios/id36?mt=8" target="_blank"><img class="centered" src="images/App_Store_Badge.svg" alt="Download on the App Store"></a>
+							<a class="separated ac-lightbox centered" href="https://itunes.apple.com/us/genre/ios/id36?mt=8" target="_blank"><img class="centered" id="top-section-download-btn" src="images/App_Store_Badge.svg" alt="Download on the App Store"></a>
 						</div>
 					</div>
 
-					<div class="right six columns">
+					<div class="right col-md-6" id="vinyl-icon-container">
 						<div id="vinyl-icon"></div>
 					</div>
 				</div>
@@ -48,6 +51,37 @@
 				</div>
 			</div>
 		</section>
+
+		<section class="featuredon-section">
+			<div class="container">
+				<div class="featuredon-image"></div>
+			</div>
+		</section>
+
+		<div id="description-div">
+			<div class="container">
+				<div class="row summary">
+					<h2>What is Twyst?</h2>
+					<p>Extract colors from your photos by skimming over them with your finger. Open a photo from your Photo Library, take a photo with the camera, or paste one in from anywhere.</p>
+				</div>
+
+				<div class="row features">
+					<div class="col-md-6">
+						<div class="feature-image" id="feature-extract"></div>
+						<p><strong style="font-size:18px;color:#000;">Overview</strong><br/>Our app, simple in nature but sleek in design, is made for performance. We removed the clutter that most music apps have. Instead of opting for a full set of piano keys, or a guitar neck, our app instead has just five buttons. But don't be deceived - with just those buttons, one can play twenty-four different notes, or two full octaves!</p>
+					</div>
+					<!--<div class="four columns" id="treble_clef"></div>
+				</div>
+
+				<div class="row features">-->
+					<div class="col-md-6">
+						<div class="feature-image" id="feature-import"></div>
+						<p><strong style="font-size:18px;color:#000;">Layout</strong><br/>On the right side of the app, there are three buttons that can be used to play a scale. On the left side of the screen, there are two more buttons - one for sharps, and the other for flats. By tilting the phone forward, one plays higher musical notes. And by shaking the phone, a user produces vibrato.</p>
+					</div>
+					<!--<div class="four columns" id="bass_clef"></div>-->
+				</div>
+			</div>
+		</div>
 
 		<section class="featuredon-section">
 			<div class="container">

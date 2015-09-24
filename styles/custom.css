@@ -17,6 +17,10 @@
 	color: white;
 }
 
+.title {
+	padding-bottom: 10px;
+}
+
 #vinyl-icon {
 	height: 286px;
     width: 320px;
@@ -32,27 +36,68 @@
 #download-link a {
 }
 
-@media (min-width: 550px) {
-	#vinyl-icon {
-		margin-top: -40px;
-		margin: 0 auto;
+@media (max-width:991px) {
+		/* when the record goes under the 
+		description on the top */
+
+	.top-section-words {
+		text-align: center;
 	}
 
-	#hero-section .container {
+	#download-link {
+		text-align: center;
+	}
+
+	#vinyl-icon-container {
 		padding-top: 150px;
-		padding-bottom: 150px;
+	}
+
+	#vinyl-icon {
+		padding-top: 100px;
+		margin: 0 auto;
+	}
+}
+
+@media (min-width:992px) { 
+
+	/* when the record goes to the right */
+
+	.top-section-words {
+		text-align: inherit;
+	}
+
+	#download-link {
+		text-align: inherit;
+	}
+
+	#vinyl-icon-container {
+		padding-top: inherit;
+		padding-left: 90px;
+	}
+
+	#vinyl-icon {
+		padding-top: inherit;
+		margin: inherit;
+	}
+}
+
+@media (min-width: 550px) {
+
+	#hero-section .container {
+		padding-top: 100px;
+		padding-bottom: 200px;
 	}
 }
 
 @media (max-width: 549px) {
 	#vinyl-icon {
 		margin: inherit;
-		margin-top: 40px;
+		margin-top: 0px;
 	}
 
 	#hero-section .container {
 		padding-top: 80px;
-		padding-bottom: 80px;
+		padding-bottom: 150px;
 	}
 }
 
@@ -61,7 +106,7 @@
    ********************* */
 
 .quote-section {
-	background-color: #f1c40f;
+	background-color: #EAC324;
 }
 
 /* *********************
@@ -81,6 +126,32 @@
 	background-size: 520px 249px;
 }
 
+
+/* *********************
+	DESCRIPTION SECTION
+   ********************* */
+
+#description-div {
+	background-color: #44D682;
+	padding: 50px 0px 50px 0px;
+}
+
+#treble_clef {
+	background: url("../images/Treble_Clef.png") no-repeat left center;
+	height: 249px;
+    width: 520px;
+    background-size: 520px 249px;
+
+}
+
+
+#bass_clef {
+	background: url("../images/Bass_Clef.png") no-repeat left center;
+	height: 249px;
+    width: 520px;
+    background-size: 520px 249px;
+
+}
 
 /* ********
 	FOOTER

@@ -16,21 +16,21 @@
     margin-bottom: 10px
 }
 .quote-section cite.theloop {
-	background: url("../images/press/the_loop.png") no-repeat left center;
+	/*background: url("../images/press/the_loop.png") no-repeat left center;*/
 	background-size: 30px 30px;
 }
 .quote-section blockquote.theloop {
 	border-left: 5px solid #fa80a7;
 }
 .quote-section cite.pcentdesign {
-	background: url("../images/press/100design.png") no-repeat left center;
+	/*background: url("../images/press/100design.png") no-repeat left center;*/
 	background-size: 30px 30px;
 }
 .quote-section blockquote.pcentdesign {
 	border-left: 5px solid #fa80a7;
 }
 .quote-section cite.macdigger {
-	background: url("../images/press/macdigger.png") no-repeat left center;
+	/*background: url("../images/press/macdigger.png") no-repeat left center;*/
 	background-size: 30px 30px;
 }
 .quote-section blockquote.macdigger {
