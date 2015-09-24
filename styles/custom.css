@@ -117,15 +117,18 @@
 	padding: 90px 0px 90px 0px;
 }
 
+
 .featuredon-image {
 	margin: 0 auto;
 	height: 249px;
     width: 520px;
     bottom: 0;
+}
+
+#note-animation {
 	background: url("../images/notes-animation.gif") no-repeat left center;
 	background-size: 520px 249px;
 }
-
 
 /* *********************
 	DESCRIPTION SECTION
@@ -151,6 +154,44 @@
     width: 520px;
     background-size: 520px 249px;
 
+}
+
+/* ********
+	FEATURES
+   ******** */
+
+.features-section {
+	background-color: #33475A;
+}
+
+.features-image {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+#professional-instrument-image {
+	background: url("../images/a-professional-instrument.jpg") no-repeat left center;
+	background-size: 520px 249px;
+}
+
+#create-beautiful-live-music-image {
+	background: url("../images/create-beautiful-live-music.jpg") no-repeat left center;
+	background-size: 520px 249px;
+}
+
+#play-every-note-image {
+	background: url("../images/play-every-note-of-scale.jpg") no-repeat left center;
+	background-size: 520px 249px;
+}
+
+#shake-for-realistic-vibrato-image {
+	background: url("../images/shake-for-realistic-vibrato.jpg") no-repeat left center;
+	background-size: 520px 249px;
+}
+
+#twist-to-jump-up-octave-image {
+	background: url("../images/twist-to-jump-up-octave.jpg") no-repeat left center;
+	background-size: 520px 249px;
 }
 
 /* ********
