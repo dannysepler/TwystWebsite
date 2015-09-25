@@ -61,6 +61,16 @@ body {
 		padding-top: 100px;
 		margin: 0 auto;
 	}
+
+	#top-section-download-btn {
+		width: 300px;
+		margin-top: 50px;
+	}
+
+	#bringing-music-text, .theloop {
+		font-size: 40px;
+		padding-bottom: 40px;
+	}
 }
 
 @media (min-width:992px) { 
@@ -84,9 +94,18 @@ body {
 		padding-top: inherit;
 		margin: inherit;
 	}
+
+	#top-section-download-btn {
+		width: inherit;
+		margin-top: inherit;
+	}
+
+	#bringing-the-music-text, .theloop {
+		font-size: 18px;
+	}
 }
 
-@media (min-width: 550px) {
+@media (min-width: 751px) {
 
 	#hero-section .container {
 		padding-top: 100px;
@@ -94,9 +113,8 @@ body {
 	}
 }
 
-@media (max-width: 549px) {
+@media (max-width: 750px) {
 	#vinyl-icon {
-		margin: inherit;
 		margin-top: 0px;
 	}
 
@@ -192,14 +210,24 @@ body {
 	margin-bottom: 20px;
 }
 
+@media (min-width: 992px) {
+	#description-div .container .row .col-md-6 {
+		padding-top: inherit;
+	}
+}
+
+@media (max-width: 991px) {
+	#description-div .container .row .col-md-6  {
+		padding-top: 60px;
+	}
+}
+
 #treble_clef {
 	background: url("../images/Treble_Clef.png") no-repeat left center;
 	height: 249px;
     width: 520px;
     background-size: 520px 249px;
-
 }
-
 
 #bass_clef {
 	background: url("../images/Bass_Clef.png") no-repeat left center;
