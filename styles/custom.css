@@ -184,6 +184,14 @@ body {
 	padding: 50px 0px 50px 0px;
 }
 
+#what-is-twyst {
+	margin-bottom: 30px;
+}
+
+#twyst-layout-text {
+	margin-bottom: 20px;
+}
+
 #treble_clef {
 	background: url("../images/Treble_Clef.png") no-repeat left center;
 	height: 249px;
