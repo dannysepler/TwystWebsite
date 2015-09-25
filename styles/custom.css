@@ -125,14 +125,54 @@ body {
 
 .featuredon-image {
 	margin: 0 auto;
-	height: 249px;
-    width: 520px;
+	/*height: 249px;
+    width: 520px;*/
     bottom: 0;
 }
 
+
+@media (min-width: 550px) {
+	.featuredon-image {
+		background-size: 100%;
+		height: 283px;
+		width: 592px;
+	}
+}
+
+@media (max-width: 549px) {
+	.featuredon-image {
+		height: 280px;
+		width: 592px;
+	}
+}
+
+
 #note-animation {
 	background: url("../images/notes-animation.gif") no-repeat left center;
-	background-size: 520px 249px;
+}
+
+@media (min-width: 628px) {
+	#note-animation {
+		background-size: 100%;
+	}
+}
+
+@media (max-width: 627px) {
+	#note-animation {
+		background-size: 592px 283px;
+	}
+}
+
+@media (max-width: 549px) {
+	#note-animation {
+		background-size: 100%;
+	}
+}
+
+@media (min-width: 550px) {
+	#note-animation {
+		background-size: 600px 284px;
+	}
 }
 
 /* *********************
@@ -203,27 +243,47 @@ body {
 
 #professional-instrument-image {
 	background: url("../images/a-professional-instrument.jpg") no-repeat left center;
-	background-size: 520px 249px;
+	background-size: 600px 284px;
 }
 
 #create-beautiful-live-music-image {
 	background: url("../images/create-beautiful-live-music.jpg") no-repeat left center;
-	background-size: 520px 249px;
+	background-size: 600px 284px;
 }
 
 #play-every-note-image {
 	background: url("../images/play-every-note-of-scale.jpg") no-repeat left center;
-	background-size: 520px 249px;
+	background-size: 600px 284px;
 }
 
 #shake-for-realistic-vibrato-image {
 	background: url("../images/shake-for-realistic-vibrato.jpg") no-repeat left center;
-	background-size: 520px 249px;
+	background-size: 600px 284px;
 }
 
 #twist-to-jump-up-octave-image {
 	background: url("../images/twist-to-jump-up-octave.jpg") no-repeat left center;
-	background-size: 520px 249px;
+	background-size: 600px 284px;
+}
+
+@media (min-width:992px) { 
+	.tilt-right {
+		margin-left: 40%;
+	}
+
+	.tilt-left {
+		margin-right: 40%;
+	}
+}
+
+@media (max-width:991px) { 
+	.tilt-right {
+		margin-left: 10%;
+	}
+
+	.tilt-left {
+		margin-right: 10%;
+	}
 }
 
 /* ********
@@ -255,4 +315,35 @@ body {
 	height: 50px;
     width: 180px;
     margin-left: -20px;
+}
+
+
+/* ****************
+	MOBILE FRIENDLY
+   **************** */
+
+@media (min-width: 628px) {
+	/* not mobile */
+
+	.image {
+    	width: 600px;
+	}
+
+	.text-container {
+		padding-left: inherit;
+		padding-right: inherit;
+	}
+}
+
+@media (max-width: 627px) {
+	/* mobile */
+
+	.image {
+		width: 100%
+	}
+
+	.text-container {
+		padding-left: 60px;
+		padding-right: 60px;
+	}
 }
